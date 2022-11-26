@@ -5,7 +5,8 @@
     "prepare-server": "node ./src/parseHTML.js",
     "prepare-mail": "node ./src/parseMail.js",
     "serve": "node ./src/serveStatic.js",
-    "mail": "node ./src/mailer.js"
+    "mail": "node ./src/mailer.js",
+    "all": "npm run prepare-server && npm run prepare-mail && npm run mail && npm run serve"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
