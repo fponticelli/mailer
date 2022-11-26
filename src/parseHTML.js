@@ -1,6 +1,5 @@
 const fs = require('fs')
 const list = require('./listImages.js')
-const parser = require('node-html-parser')
 
 async function writer(childHTML) {
     const leftRoot = '<html><body>'
