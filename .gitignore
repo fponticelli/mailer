@@ -2,7 +2,8 @@
 .env
 node_modules/
 
-# Folders with external projects
+# Content from inhouse projects
 build/images/*
 template/*
-public/*
+public/images/*
+public/index.html
