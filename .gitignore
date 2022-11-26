@@ -3,6 +3,6 @@
 node_modules/
 
 # Folders with external projects
-build/
-template/
-public/
+build/images/*
+template/*
+public/*
