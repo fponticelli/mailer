@@ -1,0 +1,8 @@
+# Environment & dependencies
+.env
+node_modules/
+
+# Folders with external projects
+build/
+template/
+public/
