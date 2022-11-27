@@ -42,6 +42,7 @@ This module brings all of the app's functions together and runs them with parame
 
 MJML, HTML and images must be stored at the correct places for Mailer to work correctly. If after cloning this repository you don't see any of these apps, *create them*.
 
+```
 mailer/\
 ├─ build/\
 │  ├─ project1.html\
@@ -73,6 +74,7 @@ mailer/\
 ├─ package-lock.json\
 ├─ package.json\
 ├─ README.md
+```
 
 # Instructions
 
