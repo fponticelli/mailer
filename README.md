@@ -42,40 +42,42 @@ This module brings all of the app's functions together and runs them with parame
 
 MJML, HTML and images must be stored at the correct places for Mailer to work correctly. If after cloning this repository you don't see any of these apps, *create them*.
 
-my-app/
-├─ build/
-│  ├─ project1.html
-│  ├─ project2.html
-├─ node_modules/
-├─ public/
-│  ├─ images/
-│  │  ├─ project1/
-│  │  │  ├─ img1.png
-│  │  │  ├─ img2.png
-│  │  ├─ project2/
-│  │  │  ├─ img3.png
-│  │  │  ├─ img4.png
-│  ├─ index.html
-├─ src/
-│  ├─ mailer.js
-│  ├─ getPath.js
-│  ├─ parseMJML.js
-│  ├─ listImages.js
-│  ├─ mailHTML.js
-│  ├─ parseHTML.js
-│  ├─ parseMail.js
-│  ├─ serveStatic.js
-├─ template/
-│  ├─ project1.mjml
-│  ├─ project2.mjml
-├─ .env
-├─ .gitignore
-├─ package-lock.json
-├─ package.json
-├─ README.md
+my-app/\
+├─ build/\
+│  ├─ project1.html\
+│  ├─ project2.html\
+├─ node_modules/\
+├─ public/\
+│  ├─ images/\
+│  │  ├─ project1/\
+│  │  │  ├─ img1.png\
+│  │  │  ├─ img2.png\
+│  │  ├─ project2/\
+│  │  │  ├─ img3.png\
+│  │  │  ├─ img4.png\
+│  ├─ index.html\
+├─ src/\
+│  ├─ mailer.js\
+│  ├─ getPath.js\
+│  ├─ parseMJML.js\
+│  ├─ listImages.js\
+│  ├─ mailHTML.js\
+│  ├─ parseHTML.js\
+│  ├─ parseMail.js\
+│  ├─ serveStatic.js\
+├─ template/\
+│  ├─ project1.mjml\
+│  ├─ project2.mjml\
+├─ .env\
+├─ .gitignore\
+├─ package-lock.json\
+├─ package.json\
+├─ README.md\
 
 # Instructions
 
 Grab the MJML file and save it in the appropriate folder like `root/template/NAME.mjml`. Then grab all the images needed for it, create a folder inside `root/public/images/` with the same name as the `.mjml` file like `root/public/images/NAME/allimagefiles.png`
+
+Create a .env file on the root folder and insert the lines `GUSER=youremailaddress.com` and `GPASS=yourpassword`
 
 Run `npm run mailer`, answer the prompts, and voilá.
