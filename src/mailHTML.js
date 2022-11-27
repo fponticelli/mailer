@@ -41,10 +41,10 @@ async function main(project, destinations) {
   
     // send mail with defined transport object
     let info = await gmailTransporter.sendMail({
-        from: '"David Sobral" <davidcsobral@gmail.com>', // sender address
+        from: `"David Sobral" <${process.env.GUSER}>`, // sender address
         to: destinations, // list of receivers
-        subject: "Nodemailer test ✔", // Subject line
-        text: "Isso é apenas um teste.", // plain text body
+        subject: "Mailer test ✔", // Subject line
+        text: "This is a test.", // plain text body
         html: htmlString // html body
     });
   
