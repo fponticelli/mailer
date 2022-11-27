@@ -2,11 +2,7 @@
   "name": "mjml-mailing-and-button-test",
   "version": "1.0.0",
   "scripts": {
-    "prepare-server": "node ./src/parseHTML.js",
-    "prepare-mail": "node ./src/parseMail.js",
-    "serve": "node ./src/serveStatic.js",
-    "mail": "node ./src/mailer.js",
-    "all": "npm run prepare-server && npm run prepare-mail && npm run mail && npm run serve"
+    "mailer": "node ./src/mailer.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
