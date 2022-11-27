@@ -6,7 +6,7 @@ Often, emails will break when viewed with most Outlook clients. Gmail also has i
 
 ## mailHTML.js
 
-This is where mailHTML comes in. It will ask you for which email you want to send and to what address. The email has to be stored in `./build` and in `.html` format.
+This is where mailHTML comes in. It will take the destination addresses you provided and send the requested email to them. The email has to be stored in `./build` and in `.html` format.
 
 ## parseMail.js
 
@@ -72,7 +72,7 @@ mailer/\
 ├─ .gitignore\
 ├─ package-lock.json\
 ├─ package.json\
-├─ README.md \
+├─ README.md
 
 # Instructions
 
