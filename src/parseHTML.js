@@ -13,4 +13,8 @@ async function writer(childHTML) {
     fs.writeFileSync('./public/index.html', finalHTML)
 }
 
-list(true).then(html => writer(html))
+function parseHTML(project) {
+    list(true, project).then(html => writer(html))
+}
+
+module.exports = parseHTML
