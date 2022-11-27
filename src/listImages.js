@@ -1,14 +1,8 @@
 const fs = require('node:fs')
-const { prompt } = require('enquirer')
 
-async function list(stringify) {
-    const {directory} = await prompt([
-        {
-            type: 'input',
-            name: 'directory',
-            message: 'What email are we preparing to serve?'
-        }
-    ])
+async function list(stringify, project) {
+    
+    const directory = project
     
     const upperHalf = '<div>'
     const lowerHalf = '</div>'
