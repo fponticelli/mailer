@@ -3,7 +3,7 @@
 node_modules/
 
 # Content from inhouse projects
-build/images/*
+build/*
 template/*
 public/images/*
 public/index.html
