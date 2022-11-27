@@ -76,6 +76,8 @@ mailer/\
 
 # Instructions
 
+Clone this repo wherever you want, cd into it and run `npm install`.
+
 Grab the MJML file and save it in the appropriate folder like `root/template/NAME.mjml`. Then grab all the images needed for it, create a folder inside `root/public/images/` with the same name as the `.mjml` file like `root/public/images/NAME/allimagefiles.png`
 
 Create a .env file on the root folder and insert the lines `GUSER=youremailaddress.com` and `GPASS=yourpassword`
