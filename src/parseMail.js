@@ -16,4 +16,8 @@ async function readAndReplace(array) {
     fs.writeFileSync(`./template/${name}.mjml`, mjml)
 }
 
-list(false).then(array => readAndReplace(array))
+async function parseMail(project) {
+        list(false, project).then(array => readAndReplace(array))
+}
+
+module.exports = parseMail
